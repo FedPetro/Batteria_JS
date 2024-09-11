@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: white;
+}
+
+.title{
+    z-index: 50;
+    margin-top: 58px;
+    color: #000;
+    font-family: Lato;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    z-index: 1;
+}
+
+.drumkit{
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+.drumkit-img{
+    width: 532px;
+    height: 485px;
+    margin-top: 50px;
+    z-index: 2; 
+}
+
+.letter-w, .letter-a, .letter-s, .letter-d, .letter-f, .letter-g, .letter-h, .letter-j {
+    width: 40.378px;
+    height: 45.89px;
+    z-index: 1;
+    font-family: Lato;
+} 
+
+.button-clicked{
+    background: #DD6E42 !important;
+    transition: background-color 0.2s !important;
+}
+
+
+.kick-icon{
+    position: absolute;
+    z-index: 100;
+    margin-top: 200px;
+    margin-left: 40px;
+    color: #DD6E42;
+    width: 40.862px;
+}
+
+.snare-icon{
+    position: absolute;
+    z-index: 100;
+    margin-top: 70px;
+    margin-left: 150px;
+    width: 40.862px;
+    color: #DD6E42;
+}
+
+.perc1-icon{
+    position: absolute;
+    z-index: 100;
+    margin-top: -100px;
+    margin-left: 70px;
+    width: 40.862px;
+}
+
+.hh-icon{
+    position: absolute;
+    z-index: 100;
+    margin-top: -100px;
+    margin-left: -250px;
+    color: #DD6E42;
+    width: 40.862px;
+}
+
+.oh-icon{
+    position: absolute;
+    z-index: 100;
+    margin-top: -100px;
+    margin-left: 250px;
+    color: #DD6E42;
+    width: 40.862px;
+}
+
+.perc3-icon{
+    position: absolute;
+    z-index: 100;
+    margin-top: 60px;
+    margin-left: -220px;
+    color: #DD6E42;
+    width: 40.862px;
+}
+
+.perc2-icon{
+    position: absolute;
+    z-index: 100;
+    margin-top: 0px;
+    margin-left: -70px;
+    color: #DD6E42;
+    width: 40.862px;
+}
+
+
+.btnHome{
+    background-color: #212529;
+    color:#f8f9fa;
+}
+
+.btnHome:hover{
+    background-color: #f8f9fa;
+    color: #212529;
+    border: 1px solid #212529;
+  }
+
+  .batteria{
+    min-width: 400px;
+    min-height: 400px;
+    background-image: url(Batteria.png);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+  }
+
+  @media screen and (min-width: 600px) {
+    .batteria{
+        min-width: 600px;
+        min-height: 600px;
+        background-image: url(Batteria.png);
+        background-repeat: none;
+        background-position: center;
+        background-size: cover;
+      }
+
+      .letter-w, .letter-a, .letter-s, .letter-d, .letter-f, .letter-g, .letter-h, .letter-j {
+        width:  60px;
+        height: 66px;
+        z-index: 1;
+        font-family: Lato;
+    } 
+
+    .kick-icon{
+        position: absolute;
+        z-index: 100;
+        margin-top: 250px;
+        margin-left: 40px;
+        color: #DD6E42;
+        width: 50px;
+    }
+
+    .snare-icon{
+        position: absolute;
+        z-index: 100;
+        margin-top: 40px;
+        margin-left: 180px;
+        color: #DD6E42;
+        width: 50px;
+    }
+
+    .perc1-icon{
+        position: absolute;
+        z-index: 100;
+        margin-top: -200px;
+        margin-left: 70px;
+        width: 50px;
+    }
+
+    .hh-icon{
+        position: absolute;
+        z-index: 100;
+        margin-top: -200px;
+        margin-left: -350px;
+        color: #DD6E42;
+        width: 50px;
+    }
+
+    .oh-icon{
+        position: absolute;
+        z-index: 100;
+        margin-top: -150px;
+        margin-left: 250px;
+        color: #DD6E42;
+        width: 50px;
+    }
+
+    .perc3-icon{
+        position: absolute;
+        z-index: 100;
+        margin-top: 60px;
+        margin-left: -320px;
+        color: #DD6E42;
+        width: 50px;
+    }
+
+    .perc2-icon{
+        position: absolute;
+        z-index: 100;
+        margin-top: -200px;
+        margin-left: -150px;
+        color: #DD6E42;
+        width: 50px;
+    }
+  }
